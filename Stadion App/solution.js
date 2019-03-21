@@ -2,6 +2,8 @@ function solve() {
 
 
     var buttons = document.getElementsByClassName("seat");
+    var open=document.getElementById("open");
+    var close=document.getElementById("close")
     var output=document.getElementById("output");
     var summary=document.getElementById("summary");
     var obg = {
@@ -30,6 +32,8 @@ function solve() {
 
     
     summary.children[0].addEventListener('click',Sum)
+    open.addEventListener('click',Open)
+    close.addEventListener('click',Close)
 
 Array.from(buttons).forEach((btn) => {
     btn.addEventListener('click', seatClick)
@@ -53,6 +57,22 @@ function seatClick(e) {
 
     function Sum(){
         summary.children[1].textContent =`${obg.summary.total} leva,${obg.summary.fans}fans.`
+    }
+    
+    function Open(){
+        var main=document.getElementById("main")
+        
+        if(main.style.display="none"){
+            main.style.display="block";
+        }
+    }
+    
+    function Close(){
+         var main=document.getElementById("main")
+         
+         if(main.style.display="block"){
+             main.style.display="none";
+         }
     }
 
 

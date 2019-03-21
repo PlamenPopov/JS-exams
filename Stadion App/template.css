@@ -20,6 +20,7 @@ body{
 #main{   
     background: url(./images/foot-st.jpg) repeat center center;
     background-size: cover; 
+    display: none;
 
     
 }
@@ -162,4 +163,17 @@ footer {
 
 #container {
     max-height: 700px;
+}
+
+.content  button{
+	padding: 0.3rem 0.5rem;
+    font-size: 0.7em;
+    margin: 1rem 0 1rem 0;
+    border: none;
+    color: black;
+    font-style: italic;
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 1%;
 }
