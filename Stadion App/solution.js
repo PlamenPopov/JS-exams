@@ -1,7 +1,7 @@
 function solve() {
 
 
-    var seats = document.getElementsByClassName("seat");
+    var buttons = document.getElementsByClassName("seat");
     var output=document.getElementById("output");
     var summary=document.getElementById("summary");
     var obg = {
@@ -27,11 +27,11 @@ function solve() {
          
     }
     
-    obg.Levski.style.color="blue";
+
     
     summary.children[0].addEventListener('click',Sum)
 
-Array.from(seats).forEach((btn) => {
+Array.from(buttons).forEach((btn) => {
     btn.addEventListener('click', seatClick)
 });
 
@@ -41,7 +41,6 @@ function seatClick(e) {
     var seat = e.target;
     var zone = seat.parentNode.parentNode.parentNode.parentNode.parentNode.className;
     var sector = String.fromCharCode(65 + e.target.parentNode.cellIndex);
-
     if (seat.style.backgroundColor === '') {
         seat.style.backgroundColor = "rgb(255,0,0)";
         obg.summary.total += obg[zone][sector];

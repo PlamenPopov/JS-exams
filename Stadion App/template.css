@@ -18,7 +18,7 @@ body{
     flex-wrap: wrap;
 }
 #main{   
-    background: url(./images/foot-st.jpg) no-repeat center center;
+    background: url(./images/foot-st.jpg) repeat center center;
     background-size: cover; 
 
     
@@ -52,6 +52,8 @@ body{
     padding: 1rem 0 1rem 1rem;
     margin: auto;
     text-align: center;
+    position: relative;
+    right: 70px;
 }
 main:after{
     display: block;
@@ -99,19 +101,20 @@ table button{
 #exercise textarea{
     margin: auto;
     height: 20vh;
-    width: 52%;
+    width: 72%;
     resize: none;
+    position: relative;
+    left: 60px;
 }
 #exercise p{
     margin-left: 10%;
 }
-#freeSeat{
-    background-color: black;
+.seat{
+    background-color: green;
+    color: white;
 }
 
-#takenSeat{
-    background-color: darkred;
-}
+
 
 #summary{
     margin-left: 10%;
@@ -133,11 +136,30 @@ table button{
     color:yellow;
 }
 
-.Levski  img{
-	background: blue;
-    display: none;
-}
-
 .VIP h2{
     color: purple;
+}
+
+#Levski {
+	max-width: 200px;
+    max-height: 200px;
+    margin-right: 100px;
+    position: relative;
+    top: 20px;
+}
+
+#Liverpool {
+   	max-width: 200px;
+    max-height: 200px;
+}
+
+footer {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+  
+}
+
+#container {
+    max-height: 700px;
 }
