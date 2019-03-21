@@ -18,58 +18,45 @@ body{
     flex-wrap: wrap;
 }
 #main{   
-    background: url(./images/background.png) no-repeat center center;
-    background-size: cover;  
+    background: url(./images/foot-st.jpg) no-repeat center center;
+    background-size: cover; 
+
+    
 }
 #navigation{
     background: #234465;
-    display: inline-block;
+    display: block;
+    width: 100%;
+    text-align: center;
     padding: 0.5rem;
 }
 #navigation-text{
     display: inline-block;
 }
-#lecture-name, #problem-name{
+#app-name, #match-name{
     font-family: "Lato", sans-serif;
     color: white;
     font-weight: bold;
 }
-#lecture-name{    
-    font-size: 28px;    
+#app-name{    
+    font-size: 65px;    
     margin-bottom: 0.8rem;    
 }
-#problem-name{    
-    font-size: 22px;
+#match-name{    
+    font-size: 82px;
     color: white;    
 }
-#logo-img{
-    width: 17%;
-    float: right;
-    padding: 0.5rem 0.5rem 0 0;
-}
-#softUni-person-img{
-    width: 30%;
-    padding: 0;
-    float: left;    
-}
+
 #exercise{   
     width: 70%;
-    float: left;
     padding: 1rem 0 1rem 1rem;
+    margin: auto;
+    text-align: center;
 }
 main:after{
     display: block;
     content:'';
     clear: both;
-}
-#footer{
-    background: #234465;
-    padding: 0.5rem;
-    margin-top: auto;
-}
-#footer-text{
-    color: white;
-    text-align: center;
 }
 #check-judge{
     color: #FD9F00;
@@ -101,6 +88,7 @@ table td{
 
 h2{
     text-align: center;
+    color: darkred;
 }
 
 table button{
@@ -109,19 +97,19 @@ table button{
 }
 
 #exercise textarea{
-    margin-left: 10%;
+    margin: auto;
     height: 20vh;
-    width: 72%;
+    width: 52%;
     resize: none;
 }
 #exercise p{
     margin-left: 10%;
 }
-.freeSeat{
-    background-color: green;
+#freeSeat{
+    background-color: black;
 }
 
-.takenSeat{
+#takenSeat{
     background-color: darkred;
 }
 
@@ -139,4 +127,17 @@ table button{
     border-radius: 5px;
     outline: none;
     margin-right: 1%;
+}
+
+.Levski h2{
+    color:yellow;
+}
+
+.Levski  img{
+	background: blue;
+    display: none;
+}
+
+.VIP h2{
+    color: purple;
 }

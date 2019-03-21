@@ -10,7 +10,7 @@ function solve() {
                 'B': 7,
                 'C': 5
             },
-         'Litex': {
+         'Liverpool': {
                 'A': 10,
                 'B': 7,
                 'C': 5
@@ -26,6 +26,8 @@ function solve() {
         }
          
     }
+    
+    obg.Levski.style.color="blue";
     
     summary.children[0].addEventListener('click',Sum)
 
