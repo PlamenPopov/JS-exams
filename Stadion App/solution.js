@@ -56,7 +56,7 @@ function seatClick(e) {
 }
 
     function Sum(){
-        summary.children[1].textContent =`${obg.summary.total} leva,${obg.summary.fans}fans.`
+        summary.children[1].textContent =`${obg.summary.total} leva,${obg.summary.fans} fans.`
     }
     
     function Open(){
@@ -65,6 +65,7 @@ function seatClick(e) {
         if(main.style.display="none"){
             main.style.display="block";
         }
+        
     }
     
     function Close(){
