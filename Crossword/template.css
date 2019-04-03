@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "PT sans", sans-serif;
+    font-size: 24px;
+    color: #234465;
+}
+body{
+    background: url(./images/photo-1528818955841-a7f1425131b5.jpg) no-repeat center center;
+     background-size: cover; 
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+#main{   
+    
+}
+#navigation{
+    display: block;
+    padding: 0.5rem;
+    text-align: center;
+  
+}
+#navigation-text{
+    display: inline-block;
+}
+#lecture-name, #problem-name{
+     font-family: "Saira Extra Condensed",sans-serif;
+    color: white;
+    font-weight: bold;
+}
+#lecture-name{    
+    font-size: 148px;    
+    margin-bottom: 0.8rem;    
+}
+#problem-name{    
+    font-size: 22px;
+    color: white;    
+}
+
+
+#exercise{   
+    width: 100%;
+    padding: 1rem 0 1rem 1rem;
+}
+main:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+#footer{
+    background: #234465;
+    padding: 0.5rem;
+    margin-top: auto;
+}
+#footer-text{
+    color: white;
+    text-align: center;
+}
+#check-judge{
+    color: #FD9F00;
+}
+input[type="button"], #exercise button{
+    padding: 0.3rem 0.5rem;
+    font-size: 0.7em;
+    margin: 1%;
+    border: none;
+    color: white;
+    background: #234465;
+    border-radius: 5px;
+    outline: none;
+    display: block;
+}
+
+fieldset{
+    width: 100%;
+}
+
+input[type="number"]{
+    width: 15%;
+}
+label[for="input"]{
+    display: block;
+    width: 100%;
+}
+#input{
+    font-size: 24px;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    display: block;
+}
+
+div{
+    display: block;
+}
+
+
+#output{
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 48px;
+    vertical-align: top;
+}
+
+.filter {
+    background: yellow;
+    margin-bottom: 3%;
+}
+
+.filter h3{
+	width: 30%;
+    float: left;
+}
+
+.filter fieldset{
+	 width: 30%;
+    float: left;
+}
+
+.filter:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+#output1 {
+
+    margin-left: 10%;
+    float: left;
+}
+
+#output1 h2{
+	width: 15%;
+}
+
+#output1 p{
+	position: relative;
+    top: 10px;
+}
+
+.sort {
+    background: pink;
+     margin-bottom: 3%;
+}
+
+.sort h3{
+	width: 30%;
+    float: left;
+}
+
+.sort fieldset{
+	 width: 30%;
+    float: left;
+}
+
+.sort:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+#output2 {
+
+    margin-left: 10%;
+    float: left;
+}
+
+#output2 h2{
+	width: 15%;
+}
+
+#output2 p{
+	position: relative;
+    top: 10px;
+}
+
+.rotate {
+    background: grey;
+     margin-bottom: 3%;
+}
+
+.rotate h3{
+	width: 30%;
+    float: left;
+}
+
+.rotate fieldset{
+	 width: 30%;
+    float: left;
+}
+
+.rotate:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+#output3 {
+
+    margin-left: 10%;
+    float: left;
+}
+
+#output3 h2{
+	width: 15%;
+}
+
+#output3 p{
+	position: relative;
+    top: 10px;
+}
+
+.get {
+    background: skyblue;
+     margin-bottom: 2%;
+}
+
+.get h3{
+	width: 30%;
+    float: left;
+}
+
+.get fieldset{
+	 width: 30%;
+    float: left;
+}
+
+.get:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+
+#output4 {
+
+    margin-left: 10%;
+    float: left;
+}
+
+#output4 h2{
+	width: 15%;
+}
+
+#output4 p{
+	position: relative;
+    top: 10px;
+}
